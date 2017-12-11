@@ -9,7 +9,7 @@ def prime?(number)
   elsif number % 2 == 0
     return false
   elsif number % 3 == 0
-    false
+    return false
   end
 
   i = 5
